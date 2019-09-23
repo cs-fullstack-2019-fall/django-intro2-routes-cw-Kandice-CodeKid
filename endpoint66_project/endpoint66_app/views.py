@@ -15,6 +15,5 @@ def happyJoy(request):
 
 
 
-
-# def words_test(request, words):
-#     return HttpResponse('My favorite show is:'+ golden)
+def words_test(request, words):
+    return HttpResponse(words)
